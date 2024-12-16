@@ -1,0 +1,33 @@
+@import url("./colors.css");
+* {
+    border: none;
+    border-radius: 0;
+    font-family: HackNerdFontMono;
+    font-size: 14pt;
+    min-height: 0;
+}
+window#waybar {
+    opacity: 0.9;
+    background: @background-darker;
+    color: @foreground;
+    border-bottom: 2px solid @background;
+}
+#workspaces button {
+    padding: 0 10px;
+    background: @background;
+    color: @green;
+}
+#workspaces button:hover {
+    box-shadow: inherit;
+    text-shadow: inherit;
+    background-image: linear-gradient(0deg, @selection, @cyan);
+}
+#workspaces button.focused {
+    background-image: linear-gradient(0deg, @selection, @selection);
+}
+#clock {
+    padding: 0 4px;
+    background: @background;
+}
+
+
