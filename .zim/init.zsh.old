@@ -1,0 +1,19 @@
+zimfw() { source /home/sean/.zim/zimfw.zsh "${@}" }
+zmodule() { source /home/sean/.zim/zimfw.zsh "${@}" }
+fpath=(/home/sean/.zim/modules/git/functions /home/sean/.zim/modules/git-info/functions /home/sean/.zim/modules/utility/functions /home/sean/.zim/modules/archive/functions /home/sean/.zim/modules/pacman/functions /home/sean/.zim/modules/duration-info/functions /home/sean/.zim/modules/git-info/functions /home/sean/.zim/modules/zsh-completions/src ${fpath})
+autoload -Uz -- git-alias-lookup git-branch-current git-branch-delete-interactive git-branch-remote-tracking git-dir git-ignore-add git-root git-stash-clear-interactive git-stash-recover git-submodule-move git-submodule-remove coalesce git-action git-info mkcd mkpw archive lsarchive unarchive duration-info-precmd duration-info-preexec coalesce git-action git-info
+source /home/sean/.zim/modules/environment/init.zsh
+source /home/sean/.zim/modules/git/init.zsh
+source /home/sean/.zim/modules/input/init.zsh
+source /home/sean/.zim/modules/termtitle/init.zsh
+source /home/sean/.zim/modules/utility/init.zsh
+source /home/sean/.zim/modules/archive/init.zsh
+source /home/sean/.zim/modules/exa/init.zsh
+source /home/sean/.zim/modules/ssh/init.zsh
+source /home/sean/.zim/modules/pacman/init.zsh
+source /home/sean/.zim/modules/duration-info/init.zsh
+source /home/sean/.zim/modules/asciiship/asciiship.zsh-theme
+source /home/sean/.zim/modules/completion/init.zsh
+source /home/sean/.zim/modules/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/sean/.zim/modules/zsh-history-substring-search/zsh-history-substring-search.zsh
+source /home/sean/.zim/modules/zsh-autosuggestions/zsh-autosuggestions.zsh
