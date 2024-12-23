@@ -1,0 +1,54 @@
+/**
+* @name base16 Everforest
+* @author Sainnhe Park (https://github.com/sainnhe)
+* @version 1.0.0
+* @description base16 Everforest theme generated from https://github.com/tinted-theming/schemes
+**/
+
+:root {
+    --base00: #2f383e; /* Black */
+    --base01: #374247; /* Bright Black */
+    --base02: #4a555b; /* Grey */
+    --base03: #859289; /* Brighter Grey */
+    --base04: #9da9a0; /* Bright Grey */
+    --base05: #d3c6aa; /* White */
+    --base06: #e4e1cd; /* Brighter White */
+    --base07: #fdf6e3; /* Bright White */
+    --base08: #7fbbb3; /* Red */
+    --base09: #d699b6; /* Orange */
+    --base0A: #dbbc7f; /* Yellow */
+    --base0B: #83c092; /* Green */
+    --base0C: #e69875; /* Cyan */
+    --base0D: #a7c080; /* Blue */
+    --base0E: #e67e80; /* Purple */
+    --base0F: #eaedc8; /* Magenta */
+
+    --primary-630: var(--base00); /* Autocomplete background */
+    --primary-660: var(--base00); /* Search input background */
+}
+
+.theme-light, .theme-dark {
+    --search-popout-option-fade: none; /* Disable fade for search popout */
+    --bg-overlay-2: var(--base00); /* These 2 are needed for proper threads coloring */
+    --home-background: var(--base00);
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base03);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base03);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}
